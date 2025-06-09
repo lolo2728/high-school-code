@@ -1,2 +1,9 @@
 *.class
 *.bin
+*.jar
+bin
+.metadata
+.project
+.classpath
+.settings
+MorseConvert/orig_git
