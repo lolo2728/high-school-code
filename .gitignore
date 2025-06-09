@@ -6,4 +6,5 @@ bin
 .project
 .classpath
 .settings
+.vscode
 MorseConvert/orig_git
