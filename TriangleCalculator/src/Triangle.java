@@ -42,9 +42,9 @@ public class Triangle {
 			/**
 			 * The pencil, check, and X icons. Merely for aesthetic purposes
 			 * */
-			ImageIcon triangle = new ImageIcon("/Users/visitor/Desktop/Projects/Icons/Triangle.png");
-			ImageIcon check = new ImageIcon("/Users/visitor/Desktop/Projects/Icons/Check.png");
-			ImageIcon nope = new ImageIcon("/Users/visitor/Desktop/Projects/Icons/Nope.png");
+			ImageIcon triangle = new ImageIcon("icons/Triangle.png");
+			ImageIcon check = new ImageIcon("icons/Check.png");
+			ImageIcon nope = new ImageIcon("icons/Nope.png");
 					
 			/**
 			 * Creates and initialises the first pop-up box (JPanel).
