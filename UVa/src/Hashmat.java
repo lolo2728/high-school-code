@@ -19,8 +19,8 @@ public class Hashmat {
     }
 
 	public static void main(String[] args) throws IOException {
-        Scanner in = new Scanner(new File("/Users/visitor/Desktop/Projects/Text/hashmat.txt"));
-        int uwotm8 = (countLines("/Users/visitor/Desktop/Projects/Text/hashmat.txt") + 1) * 2;
+        Scanner in = new Scanner(new File("resources/hashmat.txt"));
+        int uwotm8 = (countLines("resources/hashmat.txt") + 1) * 2;
         int[] hashtaghashmat = new int[uwotm8];
         int j = 0;
         
