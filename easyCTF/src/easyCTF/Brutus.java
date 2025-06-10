@@ -34,10 +34,10 @@ public class Brutus {
     }
     
     public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
-        String adjf = "/Users/visitor/Desktop/Projects/Text/brutus/adjectives.txt";
-        String anmf = "/Users/visitor/Desktop/Projects/Text/brutus/animals.txt";
-        String clrf = "/Users/visitor/Desktop/Projects/Text/brutus/colors.txt";
-        String numf = "/Users/visitor/Desktop/Projects/Text/brutus/numbers.txt";
+        String adjf = "files/adjectives.txt";
+        String anmf = "files/animals.txt";
+        String clrf = "files/colors.txt";
+        String numf = "files/numbers.txt";
         Scanner adj = new Scanner(new File(adjf));
         Scanner anm = new Scanner(new File(anmf));
         Scanner clr = new Scanner(new File(clrf));
