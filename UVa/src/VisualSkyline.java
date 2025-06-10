@@ -110,7 +110,7 @@ public class VisualSkyline extends JPanel {
     /**
      * @return Array containing starting points, heights, and ending points accessible outside of this particular class */
     public static String[] swag() throws IOException {
-    	String[] swag = fileToArray("/Users/visitor/Desktop/Projects/Text/Skyline.txt"); // Change file path here
+    	String[] swag = fileToArray("resources/Skyline.txt"); // Change file path here
     	return swag;
     }
     
@@ -179,7 +179,7 @@ public class VisualSkyline extends JPanel {
 		JFrame frame = new JFrame();
 		frame.setBackground(Color.GRAY);
 		//frame.setLayout(new FlowLayout());
-		//frame.setContentPane(new JLabel(new ImageIcon("/Users/visitor/Desktop/Projects/Backgrounds/floral.jpg")));
+		//frame.setContentPane(new JLabel(new ImageIcon("resources/floral.jpg")));
 		frame.setTitle("Rectangle");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.pack();
