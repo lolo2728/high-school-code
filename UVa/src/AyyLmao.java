@@ -5,7 +5,7 @@ public class AyyLmao {
 	public static void main(String[] args) {
 		String[] buttons = {"👽 Ayy Lmao 👽", "¯\\_(ツ)_/¯", "🏀 Ball Is Life 🏀"};
 		String[] buttons2 = {"Cancel", "Fuck No", "No", "Perhaps", "Yeah, OK"};
-		ImageIcon icon = new ImageIcon("/Users/visitor/Desktop/Projects/Icons/ayy.png");
+		ImageIcon icon = new ImageIcon("resources/ayy.png");
 		
 	     JOptionPane.showOptionDialog(null, "🔮🍵✨ ¿What is life even? ✨🌱💿", "👽 Ayy Lmao 👽",
 	         JOptionPane.INFORMATION_MESSAGE, 0, icon, buttons, null);
